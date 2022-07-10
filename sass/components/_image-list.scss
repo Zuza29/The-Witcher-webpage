@@ -1,0 +1,33 @@
+.image-list {
+
+&__item {
+background-repeat: no-repeat;
+background-size: cover;
+
+} 
+
+&__item--one {
+    background-image: url(../images/Geralt.jpg);
+  clip-path: circle(50% at 50% 50%);
+  height: 150px;
+  width: 150px;
+position: relative;
+left: 20px;
+top: 20px;
+}
+
+&__item--two {
+    background-image: url(../images/Ciri.jpg);
+   clip-path: circle(50% at 50% 50%);
+   height: 250px;
+  width: 250px;
+position: relative;
+left: 40px;
+bottom: 10px;
+} }
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}

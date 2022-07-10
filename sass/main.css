@@ -1,0 +1,106 @@
+body {
+  color: var(--dark);
+  font-family: var(--main-font);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-colour);
+  font-family: var(--header-font);
+}
+
+img {
+  display: block;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 25px 0;
+}
+
+.header__logo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+:root {
+  --bgc: #F3F7F0;
+  --main-colour: #8C5E58;
+  --sec-colour: #F2545B;
+  --dark: #19323C;
+  --header-font: "Archivo", "serif";
+  --main-font: "Tenor Sans", "sans-serif";
+}
+
+.image-list__item {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-list__item--one {
+  background-image: url(../images/Geralt.jpg);
+  clip-path: circle(50% at 50% 50%);
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.image-list__item--two {
+  background-image: url(../images/Ciri.jpg);
+  clip-path: circle(50% at 50% 50%);
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 40px;
+  bottom: 10px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.navigation__item {
+  text-transform: lowercase;
+}
+
+.text-box__btn {
+  max-width: 70%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=main.css.map */

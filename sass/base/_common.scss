@@ -1,0 +1,31 @@
+body {
+  color: var(--dark);
+  font-family: var(--main-font);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-colour);
+  font-family: var(--header-font);
+}
+
+img {
+  display: block;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
